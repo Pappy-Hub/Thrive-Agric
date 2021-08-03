@@ -12,6 +12,7 @@ body{
        
 }
 
+/* SECTION 1 BEGINS */
 
 nav{
     background-color: whitesmoke;  
@@ -47,6 +48,8 @@ nav li a{
     top: 10px;
 }
 
+/* SECTION 2 BEGINS */
+
 .sec_2{
     height: 100%;
 }
@@ -72,6 +75,8 @@ nav li a{
     left: 120px;
 }
 
+/* SECTIO0N 3 BEGINS */
+
 .numbers1{
     display: flex;
     justify-content: space-around;
@@ -88,6 +93,7 @@ nav li a{
     margin-top: -50px;
     
 }
+
 .sec_3{
     height: 300px;
     margin-top: -280px;
@@ -100,6 +106,8 @@ nav li a{
     
    
 }
+
+/* SECTION 4 BEGINS */
 
 .fleximg1{
     width: 110px;
@@ -134,10 +142,16 @@ nav li a{
     padding: 100px;
 }
 
+/* SECTION 5 BEGINS */
 
-.sec_5 ul li a{
+
+ .sec_5_1 ul {
     list-style: none;
-    
+          
+}
+
+.sec_5_1 li a{
+    text-decoration: none;
 }
 
 .sec_5 h2{
@@ -150,13 +164,19 @@ nav li a{
     font-size: 15px;
 }
 
+.email{
+    border-top: 2px;
+}
+
 .sub{
     width: 100px;
     height: 40px;
     border-radius: 30px;
-   box-shadow: none;
+    box-shadow: none;
+    
 
 }
+
 
 
 
