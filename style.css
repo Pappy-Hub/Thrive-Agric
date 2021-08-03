@@ -1,0 +1,155 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+/* Section_1 starts here */
+.Sec_1a img {
+  width: 100%;
+}
+
+/* section_2 starts here */
+
+.sec_2a {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+}
+hr {
+  border: 1px solid #000000;
+  width: 67px;
+}
+.sec_2b {
+  display: flex;
+}
+.sec_2c h2{
+    text-transform: uppercase;
+}
+.sec_2c p{
+    font-weight: 100px;
+    color: #2C2C2C;
+}
+.sec_2c h3{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.sec_2d {
+  /* position: relative;
+        left: 240px;
+        top: 30px; */
+  width: 30em;
+  /* background-color: pink; */
+  margin-left: 15em;
+  margin-top: 1em;
+
+}
+.sec_2d p{
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.i{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+input{
+  width: 700px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  height: 50px;
+  outline: none;
+  border-bottom: #21C570 solid 1px ;
+}
+button{
+  width: 410px;
+  background-color: hsl(87, 94%, 51%);
+  width: 100px;
+  border-radius: 50px;
+  color: white;
+  height: 30px;
+}
+
+/* input[type='email'] {
+  width: 470px;
+  /* margin-top: 20px; */
+
+/* section_3 starts here */
+
+.sec_3b{
+  display: flex;
+}
+
+.sec_3c{
+  width: 500px;
+  text-align: left;
+}
+.sec_3c h3{
+  color: #21C570;
+  font-size: 20px;
+}
+
+.sec_3d{
+  width: 500px;
+  text-align: left;
+  justify-content: space-between;
+  margin-left: 20px;
+  
+}
+.sec_3d h3{
+  color: #21C570;
+  font-size: 20px;
+}
+
+.sec_3d a{
+  text-decoration: none;
+  color: black;
+}
+
+.sec_3d i{
+  margin-top: 70px;
+  color: #8EF80D;
+  margin-left: 10px;
+}
+
+.sec_3e{
+  width: 400px;
+  text-align: left;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.sec_3e h3{
+  color: #21C570;
+  font-size: 20px
+}
+
+.sec_3f{
+  width: 400px;
+  text-align: left;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.sec_3f ul{
+  list-style: none;
+  position: relative;
+  right: 40px;
+}
+
+.sec_3f a{
+  text-decoration: none;
+  color: black;
+  line-height: 20px;
+}
+.sec_3f h3{
+  color: #21C570;
+  font-size: 20p
+}
+
+.join{
+  width: 350px;
+}
