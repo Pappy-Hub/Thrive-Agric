@@ -1,0 +1,182 @@
+
+body{
+    width: 100%;
+    margin: 0%;
+    border: 0;
+    padding: 0;
+    overflow-x:hidden;   
+    outline: none;
+    box-sizing: border-box;
+    background-color:whitesmoke;
+
+       
+}
+
+/* SECTION 1 BEGINS */
+
+nav{
+    background-color: whitesmoke;  
+    height: 80px; 
+    border-top: 5px green solid;  
+    position: fixed;
+    width: 100%;
+   
+    
+}
+
+nav ul li{ 
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+    bottom: 60px;
+    left: 700px;
+    padding: 0.5rem;
+    
+}
+        
+ 
+ 
+
+nav li a{
+    text-decoration: none;
+    
+}
+
+.logo{
+    position: relative;
+    left: 110px;
+    top: 10px;
+}
+
+/* SECTION 2 BEGINS */
+
+.sec_2{
+    height: 100%;
+}
+.thrive{
+    width: 100%;
+    height: 600px;
+}
+
+.build{
+    font-size: 46px;
+    color: white;
+    position: relative;
+    bottom: 350px;
+    left: 120px;
+}
+
+.more{
+    width: 150px;
+    height: 55px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 350px;
+    left: 120px;
+}
+
+/* SECTIO0N 3 BEGINS */
+
+.numbers1{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+
+
+.numbers{
+    box-shadow: 4px 4px 4px 4px rgb(226, 219, 219);
+    width: 250px;
+    height: 150px;
+    background-color: whitesmoke;
+    margin-top: -50px;
+    
+}
+
+.sec_3{
+    height: 300px;
+    margin-top: -280px;
+    
+}
+
+.sec_3 .numbers1 h3{
+    position: relative;
+    bottom: 40px;
+    
+   
+}
+
+/* SECTION 4 BEGINS */
+
+.fleximg1{
+    width: 110px;
+   
+}
+.fleximg2{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}.fleximg3{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+
+.flex1{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 12px;
+    margin-top: -1.1rem;
+    
+}
+
+.flex2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+
+/* SECTION 5 BEGINS */
+
+
+ .sec_5_1 ul {
+    list-style: none;
+          
+}
+
+.sec_5_1 li a{
+    text-decoration: none;
+}
+
+.sec_5 h2{
+    color: green;
+}
+
+.sec_5 h5{
+    color: red;
+    margin-top: -15px;
+    font-size: 15px;
+}
+
+.email{
+    border-top: 2px;
+}
+
+.sub{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    box-shadow: none;
+    
+
+}
+
+
+
+
